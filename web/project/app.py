@@ -9,4 +9,4 @@ def hello_world():
     return jsonify(hello="world")
 
 if __name__ == '__main__':
-    app.run(host='O.O.O.O', port=5000, debug=True)
+    app.run(debug=True)
