@@ -1,4 +1,5 @@
-from app import app, jsonify, render_template
+from app import app, jsonify
+from flask import render_template
 
 @app.route('/')
 def home():
